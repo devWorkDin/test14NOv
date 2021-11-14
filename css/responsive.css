@@ -1,0 +1,46 @@
+@media screen and (max-width: 1040px) {
+
+    .banniere_b{
+        display: grid;
+        margin: 2rem auto;
+        grid-template-columns: repeat(1,1fr);
+        width: 90%;
+        height: 90vh;
+        grid-gap: 2rem; 
+    }
+    .div_grid_text{
+        display: block;
+    }
+    .show{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        font-size: 1.5rem;
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 20px 25px -5px, rgba(255, 255, 255, 0.04) 0px 10px 10px -5px;  transition: all ease-in-out .3s;
+    }
+    
+    footer{
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        height: auto;  
+      }
+    footer>ul{
+        margin-top: 1rem;
+
+        display: block;
+        
+    }
+    footer>ul>li{
+        padding: 1rem;
+    }
+
+.banniere_a{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 80vh;
+    background-image:url(../asset/wallpaper_car-2.jpg);
+    background-size: 100vw;
+}
+}
